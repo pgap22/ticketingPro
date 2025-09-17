@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import de estilos de FilePond si se prefieren vía CSS
+   Alternativamente se importan desde JS con: import 'filepond/dist/filepond.min.css' */

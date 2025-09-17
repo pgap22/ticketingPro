@@ -1,0 +1,21 @@
+{
+  "name": "ticketingpro-v2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "clean": "rm -rf public/build resources/views/cache/*"
+  },
+  "dependencies": {
+    "alpinejs": "^3.13.0",
+    "filepond": "^4.30.4",
+    "filepond-plugin-image-preview": "^4.6.12"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0"
+  }
+}

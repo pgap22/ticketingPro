@@ -1,0 +1,11 @@
+/vendor/
+/node_modules/
+/public/build/
+/resources/views/cache/
+/.env
+/storage/app/
+/storage/logs/
+/public/storage/
+.DS_Store
+*.log
+*.sqlite

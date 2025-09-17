@@ -1,0 +1,30 @@
+{
+  "name": "ticketingpro/v2",
+  "description": "Sistema de tickets multi-departamento con FastRoute, Eloquent, Blade y Vite",
+  "type": "project",
+  "require": {
+    "php": "^8.2",
+    "vlucas/phpdotenv": "^5.6",
+    "illuminate/database": "^11.0",
+    "illuminate/view": "^11.0",
+    "illuminate/validation": "^11.0",
+    "illuminate/events": "^11.0",
+    "illuminate/filesystem": "^11.0",
+    "illuminate/translation": "^11.0",
+    "nikic/fast-route": "^1.3",
+    "filp/whoops": "^2.15",
+    "symfony/var-dumper": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "resources/views/helpers.php",
+      "app/Helpers/vite.php",
+      "app/Helpers/auth.php"
+    ]
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
